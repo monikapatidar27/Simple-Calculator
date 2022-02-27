@@ -50,7 +50,7 @@ button{
 }
 .eq{
     width: 180%;
-    border-radius: 30px;
+    border-radius: 25px;
     background-color:#e0e3e6 ;
     box-shadow: inset -5px -5px 12px #ffffff,
                 inset  5px 5px 12px rgba(0,0,0,.16); 
@@ -79,8 +79,8 @@ button{
         display: grid;
         grid-template-columns: repeat(4,20%);    
     }
-    .eq{
-        width: 100%;
-    }
+    /* .eq{
+        /* width: 100%; */
+    } */
     
 }

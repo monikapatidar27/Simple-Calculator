@@ -2,7 +2,7 @@
  let outputScreen = document.getElementById("outscreen");
 
  function display(num){
-     outputScreen.value += num;
+     outputScreen.value+= num;
  }
  function clr(){
      outputScreen.value = "";

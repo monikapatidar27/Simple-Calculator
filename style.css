@@ -57,26 +57,27 @@ button{
 }
 @media screen and (max-width:510px){
     button{
-        height: 28px;
-        width: 30%;
-        margin: 2px;
-        font-size: .5em;
-        
+        height: 40px;
+        /* width: 50%; */
+        /* margin: 2px; */
+        font-size: 1em;
+        grid-column-gap: 2%;
     }
     .container{
        height: 80vh;
        
     }
     input{
-        width: 50%;
-        grid-column: span 3;
+        /* width: 50%; */
+        grid-column: span 4;
         height: 5vh;
-        font-size: 10px;
+        font-size: 1rem;
     }
     .calcu{
-        width: 80%;
+        width: auto;
+        grid-column-gap: 3%;
         display: grid;
-        grid-template-columns: repeat(3,50px);    
+        grid-template-columns: repeat(4,20%);    
     }
     .eq{
         width: 100%;
